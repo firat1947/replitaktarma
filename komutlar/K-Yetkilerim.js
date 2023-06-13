@@ -87,7 +87,7 @@ exports.run = (client, msg, args) => {
   msg.channel.send(
     new Discord.MessageEmbed()
       .setColor("#00ff00")
-      .setAuthor(`Parsher  | Yetkilerim Tablo`)
+      .setAuthor(`Lordgladiator  | Yetkilerim Tablo`)
        .addField(
       `__Bilgilendirme__`,
       `🌐  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🌐 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`

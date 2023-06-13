@@ -3,15 +3,15 @@ exports.run = async (client, message, args, level) => {
   const toplamkomut = new Discord.MessageEmbed()
 
     .setTitle(``)
-    .setAuthor(`Windes  | Discord Bot Toplam Komut Sayısı`)
+    .setAuthor(`GladBot  | Discord Bot Toplam Komut Sayısı`)
     .setDescription(
-      `✅ **Windes  Toplam**  \`` +
+      `✅ **GladBot  Toplam**  \`` +
         client.commands.size +
         `\` **Komut Vardır!**`
     )
     .setColor("#00ff00")
     .setTimestamp()
-    .setFooter(`Windes`, client.user.avatarURL());
+    .setFooter(`GladBot`, client.user.avatarURL());
 
   return message.channel.send(toplamkomut);
 };
