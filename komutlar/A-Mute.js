@@ -34,13 +34,13 @@ exports.run = async (client, message, args) => {
     return hata(
       "Mutelenmesini istediğin kullanıcıyı belirtmelisin. Örnek kullanım: **" +
         process.env.prefix +
-        "sustur @CodEming 1saat Spam**"
+        "sustur @GladBot 1saat Spam**"
     );
   if (!süre)
     return hata(
       "Kullanıcının ne kadar muteli kalmasını istediğini belirtmelisin. Örnek kullanım: **" +
         process.env.prefix +
-        "sustur @CodEming 1saat Spam**"
+        "sustur @GladBot 1saat Spam**"
     );
   if (!sebep) sebep = "Bir neden girilmedi!";
 

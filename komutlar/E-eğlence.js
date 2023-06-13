@@ -6,7 +6,7 @@ exports.run = async (client, message) => {
 
 
   const embedeğlence = new Discord.MessageEmbed()
-    .setAuthor(`©Windes  | Eğlence`)
+    .setAuthor(`©GladBot  | Eğlence`)
     .setTitle(``)
     .setColor(`BLACK`)
     .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
